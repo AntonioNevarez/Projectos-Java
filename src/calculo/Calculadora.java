@@ -33,7 +33,6 @@ public class Calculadora {
 	private JButton division;
 	private JButton limpiar;
 	private JButton igual;
-	private JButton punto;
 	private JButton uno;
 	private JButton dos;
 	private JButton tres;
@@ -140,7 +139,7 @@ public class Calculadora {
 				try{
 					textoActual=resultado.getText();
 					resultado.setText(textoActual+"2");
-					reciente="2";
+				
 				
 				}catch(Exception e){
 				}
@@ -361,4 +360,3 @@ public class Calculadora {
 		ventana.getContentPane().add(division);
 	}
 }
-
